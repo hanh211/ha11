@@ -229,7 +229,7 @@ android.archs = armeabi-v7a,arm64-v8a,x86
 #
 
 # (str) python-for-android fork to use, defaults to upstream (kivy)
-p4a.fork = kivy,opencv
+p4a.fork = opencv
 
 # (str) python-for-android branch to use, defaults to master
 #p4a.branch = master
