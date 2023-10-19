@@ -12,7 +12,7 @@
       socket.on('image',(image)=>{
         console.log('data',data);
         var imageElm=document.getElementById('image');
-        imageElm.src=`dat:image/jpeg;base64,${image}`;
+        imageElm.src=`data:image/jpeg;base64,${image}`;
       });
     </script>
   </body>
