@@ -4,7 +4,7 @@ var express=require("express");
 var app=express();
 var server=require('http').Server(app);
 var io=require('socket.io')(server);
-var wCap = new cv.VideoCapture("rtsp://admin:admin1234@ngduchanh2.ddns.net:554/cam/realmonitor?channel=1&subtype=0");
+var wCap = new cv.VideoCapture("rtsp://admin:admin1234@ngduchanh3.ddns.net:554/cam/realmonitor?channel=1&subtype=0");
 
 app.get('/',(req,res)=>{
   res.sendFile(path.join(__dirname,'index.html'));
